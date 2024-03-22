@@ -10,27 +10,29 @@ export default defineAppConfig({
     logo: {
       alt: '',
       light: '',
-      dark: ''
+      dark: '',
     },
     search: true,
-    links:[{
-      label: 'NodeJS',
-      to: '/node'
-    }, {
-      label: 'Tests et qualité de code',
-      to: '/test'
-    }, {
-      label: 'Git',
-      to: '/git'
-    }],
-    externalLinks: [{
-      icon: 'i-mdi-github',
-      to: 'https://github.com/vfourny',
-      target: '_blank',
-      'aria-label': 'VFourny Github'
-    }]
+    links: [
+      {
+        label: 'NodeJS',
+        to: '/node',
+      },
+      {
+        label: 'Git',
+        to: '/git',
+      },
+    ],
+    externalLinks: [
+      {
+        icon: 'i-mdi-github',
+        to: 'https://github.com/vfourny',
+        target: '_blank',
+        'aria-label': 'VFourny Github',
+      },
+    ],
   },
   toc: {
     title: 'Sur cette page',
-  }
-})
+  },
+});
