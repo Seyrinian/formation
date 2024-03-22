@@ -1,0 +1,30 @@
+title: 'Plateforme de formation'
+description: 'Plateforme de formation pour les étudiants de Valentin FOURNY.'
+navigation: false
+landing:
+  title: 'Plateforme de formation'
+  description: 'Choisissez un module pour commencer.'
+  orientation: horizontal
+  headline:
+    label: Valentin FOURNY
+  links:
+    - label: Contacter l'enseignant
+      icon: i-mdi-email
+      to: mailto:fourny.valentin@gmail.com
+      size: lg
+modules:
+  - title: 'Node JS'
+    description: 'Programmation côté serveur avec Node.js.'
+    icon: 'i-mdi-nodejs'
+    to: '/node'
+    color: '#3c873a'
+  - title: 'Test et qualité de code'
+    description: "Apprentissages de framework de tests et solutions d'amélioration de la qualité de code."
+    icon: 'i-mdi-test-tube'
+    to: '/test'
+    color: '#F0DB4F'
+  - title: 'Git'
+    description: 'Apprentissage du versionning de code avec Git.'
+    icon: 'i-mdi-git'
+    to: '/git'
+    color: '#F34F29'
