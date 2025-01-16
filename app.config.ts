@@ -19,14 +19,6 @@ export default defineAppConfig({
         to: '/node',
       },
       {
-        label: 'VueJS',
-        to: '/vue',
-      },
-      {
-        label: 'Tests et qualité de code',
-        to: '/test',
-      },
-      {
         label: 'Git',
         to: '/git',
       },
